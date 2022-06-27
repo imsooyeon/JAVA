@@ -15,7 +15,7 @@ class StringEx {
 		System.out.println("" + 7);     //7 (String)
 		System.out.println("" + "");    // (String)
 		System.out.println(7 + 7 + ""); //14 (String)
-		System.out.println("" + 7 + 7); //78 (String)
+		System.out.println("" + 7 + 8); //78 (String)
 		
 		//타입확인
 		//System.out.println(변수.getClass().getName());
