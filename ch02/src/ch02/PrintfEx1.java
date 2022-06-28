@@ -17,7 +17,7 @@ class PrintfEx1 {
 		
 		System.out.printf("b=%d%n", b);  //b=1
 		System.out.printf("s=%d%n", s); //s=2
-		System.out.printf("c=%c, %d %n", c, (int)c); //c='A',아스키코드 A를 10진수로 바꾼 수 
+		System.out.printf("c=%c, %d %n", c, (int)c); //c='A',문자 A의 유니코드  
 		System.out.printf("finger=[%5d]%n", finger); //finger=[   10]
 		System.out.printf("finger=[%-5d]%n", finger); //finger=[10   ] 
 		System.out.printf("finger=[%05d]%n", finger); //finger=[00010]
