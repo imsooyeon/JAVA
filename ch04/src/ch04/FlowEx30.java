@@ -8,7 +8,7 @@ class FlowEx30 {
 		
 		while(true) {
 			if(sum > 100)
-				break;
+				break;  //break문이 수행되면 while문 벗어
 			++i;
 			sum += i;
 		}
