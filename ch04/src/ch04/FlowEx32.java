@@ -14,7 +14,7 @@ class FlowEx32 {
 			System.out.println("(1) square");
 			System.out.println("(2) square root");
 			System.out.println("(3) log");
-			System.out.print("1~3 선택(종료:0)>");
+			System.out.print("1~3 선택하세(종료:0)>");
 			
 			String tmp = scanner.nextLine();
 			menu = Integer.parseInt(tmp);
