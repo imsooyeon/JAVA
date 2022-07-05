@@ -5,6 +5,7 @@ class ArrayEx10 {
 	public static void main(String[] args) {
 		int[] numArr = new int[10];
 		
+		//버블정렬 
 		for (int i=0; i<numArr.length;i++) {
 			System.out.print(numArr[i] = (int)(Math.random()*10));
 		}
