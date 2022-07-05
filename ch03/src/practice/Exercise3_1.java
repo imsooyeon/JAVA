@@ -10,12 +10,12 @@ class Exercise3_1 {
 		System.out.println(y >= 5 || x < 0 && x > 2); //t||f&&f -> true
 		System.out.println(y += 10 - x++); //13 x=3
 		System.out.println(x+=2); //5
-		System.out.println( !('A' <= c && c <='Z') ); //t && f -> false
+		System.out.println( !('A' <= c && c <='Z') ); //(!(t && t)) -> false
 		System.out.println('C'-c); //2
 		System.out.println('5'-'0'); //5
 		System.out.println(c+1); //66
 		System.out.println(++c); //B
-		System.out.println(c++); //B  C
+		System.out.println(c++); //B 
 		System.out.println(c); //C
 	}
 
