@@ -25,7 +25,7 @@ class ArrayEx10 {
 			
 			for(int k=0; k<numArr.length; k++)
 				System.out.print(numArr[k]);
-			System.out.println();
+			System.out.println(); 
 		}
 	}
 
