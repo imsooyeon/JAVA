@@ -13,7 +13,7 @@ class Exercise3_1 {
 		System.out.println( !('A' <= c && c <='Z') ); //(!(t && t)) -> false
 		System.out.println('C'-c); //2
 		System.out.println('5'-'0'); //5
-		System.out.println(c+1); //66
+		System.out.println(c+1); //66   
 		System.out.println(++c); //B
 		System.out.println(c++); //B 
 		System.out.println(c); //C
