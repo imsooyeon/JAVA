@@ -14,7 +14,7 @@ class Parent {
 }
 
 class Child extends Parent {
-	int x =20;
+//	int x =20;   //SuperTest2 예제 추가 
 	
 	void method() {
 		System.out.println("x=" + x);  //10
