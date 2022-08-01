@@ -15,4 +15,4 @@ class Exercise6_19 {
 }
 
 //ABC123
-//After change:ABC123456
+//After change:ABC123
