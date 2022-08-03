@@ -24,9 +24,13 @@ class Buyer {
 	int i = 0; // Product배열 cart에 사용될 index
 	
 	void buy(Product p) {
-		if(money < p.price)
+		if(money < p.price) {
+			System.out.println("잔액이 부족하여 "+ p +"을/를 살수 없습니다.");
 			return;
-		money = money - p.price;
+		}	
+		
+		money -= p.price;
+		
 		add(p);
 		
 	/*
@@ -40,6 +44,7 @@ class Buyer {
 	void add(Product p) {
 		if (i>=cart.length) {
 			Product[] tmp = new Product[cart.length*2];
+			System.arraycopy(cart,0,tmp,0,cart.length);
 			cart = tmp;
 		}
 		cart[i++] = p;
