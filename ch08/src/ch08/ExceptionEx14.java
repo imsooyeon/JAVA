@@ -7,6 +7,7 @@ class ExceptionEx14 {
 			method1();
 		} catch (Exception e) {
 			System.out.println("메인 메서드에서 예외 처리 완료.");
+		    e.printStackTrace();
 		}
 	}
 	
