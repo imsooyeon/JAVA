@@ -16,7 +16,7 @@ class Point implements Cloneable {
 	public Object clone() {
 		Object obj = null;
 		try {
-			obj = super.clone();  // clone()�� �ݵ�� ����ó���� ���־�� �Ѵ�.
+			obj = super.clone();  // clone()은 반드시 예외처리를 해주어야 한다.
 		} catch(CloneNotSupportedException e) {}
 		return obj;
 	}
@@ -25,7 +25,7 @@ class Point implements Cloneable {
 class CloneEx1 {
 	public static void main(String[] args){
 		Point original = new Point(3, 5);
-		Point copy = (Point)original.clone(); // ����(clone)�ؼ� ���ο� ��ü�� ����
+		Point copy = (Point)original.clone(); // 복제(clone)해서 새로운 객체를 생성
 		System.out.println(original);
 		System.out.println(copy);
 	}
