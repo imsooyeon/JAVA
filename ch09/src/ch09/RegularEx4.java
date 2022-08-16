@@ -16,9 +16,9 @@ class RegularEx4 {
 		int i=0;
 
 		while(m.find()) {
-			System.out.println(++i + "��° ��Ī:" + m.start() + "~"+ m.end());
+			System.out.println(++i + "번째 매칭:" + m.start() + "~"+ m.end());
 
-            // broken�� drunken���� ġȯ�Ͽ� sb�� �����Ѵ�.
+			// broken을 drunken으로 치환하여 sb에 저장한다.
 			m.appendReplacement(sb, "drunken");  
 		}
 
